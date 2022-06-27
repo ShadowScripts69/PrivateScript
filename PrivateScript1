@@ -39,7 +39,6 @@ DaHoodAimlock.Font = Enum.Font.SciFi
 DaHoodAimlock.Text = "Da hood aimlock"
 DaHoodAimlock.TextColor3 = Color3.fromRGB(0, 0, 0)
 DaHoodAimlock.TextSize = 30.000
-DaHoodAimlock.TextWrapped = true
 DaHoodAimLock.MouseButton1Down:connect(function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/racemodex/my-scripts/master/dahoodaimlock", true))()
 end)
@@ -53,7 +52,6 @@ InfiniteYield.Font = Enum.Font.SciFi
 InfiniteYield.Text = "Infinite yield"
 InfiniteYield.TextColor3 = Color3.fromRGB(0, 0, 0)
 InfiniteYield.TextSize = 40.000
-InfiniteYield.TextWrapped = true
 InfiniteYield.MouseButton1Down:connect(function()
 	loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
 end)
@@ -67,7 +65,6 @@ CMDX.Font = Enum.Font.SciFi
 CMDX.Text = "CMD-X"
 CMDX.TextColor3 = Color3.fromRGB(0, 0, 0)
 CMDX.TextSize = 40.000
-CMDX.TextWrapped = true
 CMDX.MouseButton1Down:connect(function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source",true))()
 end)
@@ -81,7 +78,6 @@ DaHoodMacro.Font = Enum.Font.SciFi
 DaHoodMacro.Text = "Da Hood Macro"
 DaHoodMacro.TextColor3 = Color3.fromRGB(0, 0, 0)
 DaHoodMacro.TextSize = 30.000
-DaHoodMacro.TextWrapped = true
 DaHoodMacro.MouseButton1Down:connect(function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/ShadowScripts69/DHMacro/main/Gui2Lua", true))()
 end)
@@ -95,7 +91,6 @@ MiningSimulator2AutoFarm.Font = Enum.Font.SciFi
 MiningSimulator2AutoFarm.Text = "Mining Simulator 2 AutoFarm"
 MiningSimulator2AutoFarm.TextColor3 = Color3.fromRGB(0, 0, 0)
 MiningSimulator2AutoFarm.TextSize = 27.000
-MiningSimulator2AutoFarm.TextWrapped = true
-CMDX.MouseButton1Down:connect(function()
+MiningSimulator2AutoFarm.MouseButton1Down:connect(function()
 	loadstring(game:HttpGet'https://github.com/RunDTM/miningsim2/raw/main/script.lua')()
 end)
